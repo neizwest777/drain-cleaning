@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://ummistustelikvideerimine.ee/sitemap.xml
+
+# Disallow admin and API endpoints
+Disallow: /api/
+Disallow: /s/
+
+# Crawl-delay for polite crawlers
+Crawl-delay: 1
